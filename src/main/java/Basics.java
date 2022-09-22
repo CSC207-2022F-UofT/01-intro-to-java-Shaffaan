@@ -40,7 +40,7 @@ public class Basics {
          */
         System.out.println(7 + 5);
 
-        System.out.println("Hello World");
+        System.out.println("Hello World!");
 
         /* 4. In Python, we could declare variables using a simple assignment
          *    statement. For example:
@@ -179,7 +179,7 @@ public class Basics {
             return 0;
         }
         else {
-            for (int i = 0; i<= length; i++) {
+            for (int i = 0; i<= length-1; i++) {
                 if (i % 2 !=0) {
                     current_sum += arr[i];
                 }
